@@ -1,17 +1,20 @@
 @import '~office-ui-fabric-react/dist/sass/References.scss';
+// For Grid system
+@import '~office-ui-fabric-react/dist/css/fabric.min.css';
 
 .tagPickerSample {
+  // Default SPFx CSS
   .container {
-    max-width: 700px;
+    max-width: 100%;
     margin: 0px auto;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
   }
 
   .row {
     @include ms-Grid-row;
-    @include ms-fontColor-white;
-    background-color: $ms-color-themeDark;
-    padding: 20px;
+    // @include ms-fontColor-white;
+    background-color: "[theme: white, default: #ffffff]";
+    padding: 5px 5px 5px 5px;
   }
 
   .column {
@@ -24,17 +27,18 @@
 
   .title {
     @include ms-font-xl;
-    @include ms-fontColor-white;
+    // @include ms-fontColor-white;
   }
 
   .subTitle {
-    @include ms-font-l;
-    @include ms-fontColor-white;
+    @include ms-font-m-plus;
+    padding-bottom: 5px;
+    // @include ms-fontColor-white;
   }
 
   .description {
-    @include ms-font-l;
-    @include ms-fontColor-white;
+    @include ms-font-m-plus;
+    // @include ms-fontColor-white;
   }
 
   .button {
@@ -46,7 +50,7 @@
     min-width: 80px;
     background-color: $ms-color-themePrimary;
     border-color: $ms-color-themePrimary;
-    color: $ms-color-white;
+    // color: $ms-color-white;
 
     // Basic Button
     outline: transparent;

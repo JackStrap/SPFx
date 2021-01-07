@@ -16,12 +16,13 @@
 
   "preconfiguredEntries": [{
     "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Other
-    "group": { "default": "Other" },
-    "title": { "default": "TagPickerSample" },
-    "description": { "default": "TagPickerSample description" },
+    "group": { "default": "Jack Apps" },
+    "title": { "default": "Tag Picker Sample" },
+    "description": { "default": "Tag Picker Sample description" },
     "officeFabricIconFontName": "Page",
     "properties": {
-      "description": "TagPickerSample"
+      "description": "Tag Picker Sample",
+      "tagPickerProps": "{\"propsPicker\":[{\"name\":\"Black\",\"value\":\"black\"},{\"name\":\"Blue\",\"value\":\"blue\"},{\"name\":\"Brown\",\"value\":\"brown\"},{\"name\":\"Cyan\",\"value\":\"cyan\"},{\"name\":\"Green\",\"value\":\"green\"},{\"name\":\"Magenta\",\"value\":\"magenta\"},{\"name\":\"Mauve\",\"value\":\"mauve\"},{\"name\":\"Orange\",\"value\":\"orange\"},{\"name\":\"Pink\",\"value\":\"pink\"},{\"name\":\"Purple\",\"value\":\"purple\"},{\"name\":\"Red\",\"value\":\"red\"},{\"name\":\"Violet\",\"value\":\"violet\"},{\"name\":\"White\",\"value\":\"white\"},{\"name\":\"Yellow\",\"value\":\"Yellow\"}]}"
     }
   }]
 }
